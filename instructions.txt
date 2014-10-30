@@ -1,0 +1,22 @@
+Please follow the instructions as below:
+
+1) Please find attached db file - fxteam inside db-files folder.
+2) Configure db with the following details:
+	Host : Localhost
+	UserName: root
+	Password: 
+	DB Name: fxteam
+3) Steps to run the zf-apigility:
+   a) Using commandline, get inside zf-apigility folder and run the following command:
+		php -S 0.0.0.0:8888 -t public public/index.php
+	  For eg: 
+			If folder is inside E:\wamp\www\
+			Then cd E:\wamp\www\zf-apigility and paste
+			php -S 0.0.0.0:8888 -t public public/index.php
+	b) Run http://localhost:8888/users to see users rest-service.
+	c) Run http://localhost:8888/apigility/welcome page - where we can configure rest-services
+4) Above steps are done as part of exercise for simple rest-service. 
+   There are lot more to do with custom entities and collections.
+   
+   
+		
